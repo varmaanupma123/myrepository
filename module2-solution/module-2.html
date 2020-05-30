@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>module-2 solution</title>
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+		<style>
+			h1{
+				text-align: center;
+				color:red;
+			}
+			.row{
+				width:100%;
+			}
+		<!--for large devices-->
+		@media only screen and (min-width: 992px){
+			.col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12 {
+				float:left;
+				}  
+			.col-lg-1{
+				weidth:8.33%;
+			}
+			.col-lg-2{
+				weidth:16.66%;
+			}
+			.col-lg-3{
+				weidth:25%;
+			}
+			.col-lg-4{
+				weidth:33%;
+			}
+			.col-lg-5{
+				weidth:41.66%;
+			}
+			.col-lg-6{
+				weidth:50%;
+			}
+			.col-lg-7{
+				weidth:58.33%;
+			}
+			.col-lg-8{
+				weidth:66.66%;
+			}
+			.col-lg-9{
+				weidth:74.99%;
+			}
+			.col-lg-10{
+				weidth:83.33%;
+			}
+			.col-lg-11{
+				weidth:91.66%;
+			}
+			.col-lg-12{
+				weidth:100%;
+			}
+		}
+	<!-- for medium screen-->
+		@media only screen and (min-width: 768px) and (max-width: 991px){
+			.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12 {
+				float:left;
+				}  
+			.col-md-1{
+				weidth:8.33%;
+			}
+			.col-md-2{
+				weidth:16.66%;
+			}
+			.col-md-3{
+				weidth:25%;
+			}
+			.col-md-4{
+				weidth:33%;
+			}
+			.col-md-5{
+				weidth:41.66%;
+			}
+			.col-md-6{
+				weidth:50%;
+			}
+			.col-md-7{
+				weidth:58.33%;
+			}
+			.col-md-8{
+				weidth:66.66%;
+			}
+			.col-md-9{
+				weidth:74.99%;
+			}
+			.col-md-10{
+				weidth:83.33%;
+			}
+			.col-md-11{
+				weidth:91.66%;
+			}
+			.col-md-12{
+				weidth:100%;
+			}
+		}
+	<!--for small devices-->
+		@media only screen and (max-width: 768px){
+			.col-sm-1,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12 {
+				float:bottom;
+				} 
+			.col-sm-1{
+				weidth:8.33%;
+			}
+			.col-sm-2{
+				weidth:16.66%;
+			}
+			.col-sm-3{
+				weidth:25%;
+			}
+			.col-sm-4{
+				weidth:33%;
+			}
+			.col-sm-5{
+				weidth:41.66%;
+			}
+			.col-sm-6{
+				weidth:50%;
+			}
+			.col-sm-7{
+				weidth:58.33%;
+			}
+			.col-sm8{
+				weidth:66.66%;
+			}
+			.col-sm-9{
+				weidth:74.99%;
+			}
+			.col-sm-10{
+				weidth:83.33%;
+			}
+			.col-sm-11{
+				weidth:91.66%;
+			}
+			.col-sm-12{
+				weidth:100%;
+			}
+		}
+		.row > div{
+			background-color: gray;
+			border:2px solid red;
+			text-align: right;
+		}
+		* {
+			box-sizing: border-box;
+		}
+
+		#div1{
+			
+			border-left:2px solid green;
+			border-bottom:2px solid green;
+			color: yellow;
+			float:right;
+			margin-right:-12px;
+			padding:10px;
+			
+		}
+		#div2{
+			
+			border-left:2px solid green;
+			border-bottom:2px solid green;
+			color: yellow;
+			float:right;
+			margin-right:-12px;
+			padding:10px;
+			
+		}
+		#div3{
+			
+			border-left:2px solid green;
+			border-bottom:2px solid green;
+			color: yellow;
+			float:right;
+			margin-right:-12px;
+			padding:10px;
+		}
+		p{
+			text-align:left;
+			color:cyan;
+			margin-left:auto;
+			margin-right:auto;
+		}
+	</style>
+	</head>
+	<body>
+		<h1>Our Dishes</h1>
+		<section class="container-fluid">
+		<div class="row">
+			<div class="col-md-4 col-sm-6"><div id="div1">Chole(Chickpea Curry)</div>
+			<br>
+				<p>A classic and easy chole chickpea curry, is a favorite in Northern India and has become a worldwide sensation. It's perfect for a crowd, especially if you serve it hot along with fried Indian leavened bread like poori or bhatura.</p>
+			</div>
+			<div class="col-md-4 col-sm-6"><div id="div2">Palak Paneer(Spinach and Cottage Cheese)</div>
+			<br>
+				<p>The most popular paneer recipe at Indian restaurants is, by far, palak paneer.It is a mildly flavored dish that is super healthy, as it is nothing more than spinach and cottage cheese,along with the typical Indian spices.</p>
+			</div>
+			<div class="col-md-4 col-sm-6"><div id="div3">Murg Makhani(Butter Chicken)</div>
+			<br>
+				<p>Murg Makhani (butter chicken) is one of the top orders at any Indian restaurant in the West and for good reason—it is delicious.This sultry poultry dish tastes great with kaali daal (black lentils), naan, and a green salad.</p>
+			</div>
+		</div>
+		</section>
+		
+	</body>
+</html>
